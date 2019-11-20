@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+person:  
+  lastName: 张三${random.uuid}
+  age: 18
+  boss : true
+  birth: 2019/11/11
+  maps: 
+    k1: v1
+    k2: v2
+  lists: [A1,A2,A3]
+  dog: 
+    name: ${person.lastName}的狗
+    age: 2
