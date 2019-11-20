@@ -9,13 +9,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-class SpringbootDemoApplicationTests {
+public class SpringbootDemoApplicationTests {
 
 	private Logger logger = LoggerFactory.getLogger(getClass());
 	
 	@Test
-	public void contextLoad() {
-		
+	public void contextLoads() {
 		//日志的级别；
 		//由低到高 trace<debug<info<warn<error
 		//可以调整输出的日志级别；日志就只会在这个级别以以后的高级别生效
